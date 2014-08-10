@@ -13,8 +13,6 @@
 		34A04DB01997908A00B38986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DAE1997908A00B38986 /* InfoPlist.strings */; };
 		34A04DB21997908A00B38986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A04DB11997908A00B38986 /* main.m */; };
 		34A04DB61997908A00B38986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A04DB51997908A00B38986 /* AppDelegate.m */; };
-		34A04DB91997908A00B38986 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DB71997908A00B38986 /* Main_iPhone.storyboard */; };
-		34A04DBC1997908A00B38986 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DBA1997908A00B38986 /* Main_iPad.storyboard */; };
 		34A04DBF1997908A00B38986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A04DBE1997908A00B38986 /* ViewController.m */; };
 		34A04DC11997908A00B38986 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DC01997908A00B38986 /* Images.xcassets */; };
 		34A04DC81997908A00B38986 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A04DC71997908A00B38986 /* XCTest.framework */; };
@@ -46,8 +44,6 @@
 		34A04DB31997908A00B38986 /* d3-cloud-iOSWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "d3-cloud-iOSWebView-Prefix.pch"; sourceTree = "<group>"; };
 		34A04DB41997908A00B38986 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34A04DB51997908A00B38986 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		34A04DB81997908A00B38986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		34A04DBB1997908A00B38986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		34A04DBD1997908A00B38986 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		34A04DBE1997908A00B38986 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34A04DC01997908A00B38986 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -118,8 +114,6 @@
 			children = (
 				34A04DB41997908A00B38986 /* AppDelegate.h */,
 				34A04DB51997908A00B38986 /* AppDelegate.m */,
-				34A04DB71997908A00B38986 /* Main_iPhone.storyboard */,
-				34A04DBA1997908A00B38986 /* Main_iPad.storyboard */,
 				34A04DBD1997908A00B38986 /* ViewController.h */,
 				34A04DBE1997908A00B38986 /* ViewController.m */,
 				34A04DDD1997909F00B38986 /* d3-wordCloud.html */,
@@ -235,9 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A04DDE1997909F00B38986 /* d3-wordCloud.html in Resources */,
-				34A04DBC1997908A00B38986 /* Main_iPad.storyboard in Resources */,
 				34A04DC11997908A00B38986 /* Images.xcassets in Resources */,
-				34A04DB91997908A00B38986 /* Main_iPhone.storyboard in Resources */,
 				34A04DB01997908A00B38986 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,22 +280,6 @@
 				34A04DAF1997908A00B38986 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		34A04DB71997908A00B38986 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34A04DB81997908A00B38986 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		34A04DBA1997908A00B38986 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34A04DBB1997908A00B38986 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		34A04DD01997908A00B38986 /* InfoPlist.strings */ = {
@@ -474,6 +450,7 @@
 				34A04DD91997908A00B38986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34A04DDA1997908A00B38986 /* Build configuration list for PBXNativeTarget "d3-cloud-iOSWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +459,7 @@
 				34A04DDC1997908A00B38986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

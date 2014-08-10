@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <UIWebViewDelegate>
 
 @end
 
@@ -22,9 +22,13 @@
     UIWebView* webView = [[UIWebView alloc] init];
     webView.frame = self.view.bounds;
     [self.view addSubview:webView];
-    NSURL *url = [[NSBundle mainBundle] URLForResource:@"d3-wordCloud" withExtension:@"html"];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[[NSBundle mainBundle] URLForResource:@"d3-wordCloud" withExtension:@"html"]];
+    webView.delegate = self;
     [webView loadRequest:request];
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    [webView stringByEvaluatingJavaScriptFromString:@"myFunc(['Hello', 'world', 'normally', 'you', 'want', 'more', 'words','than', 'this'])"];
 }
 
 - (void)didReceiveMemoryWarning
