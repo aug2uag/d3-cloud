@@ -1,18 +1,15 @@
-# Word Cloud Layout
+# Word Cloud Layout iOS
 
 This is a [Wordle](http://www.wordle.net/)-inspired word cloud layout written
 in JavaScript. It uses HTML5 canvas and sprite masks to achieve
-near-interactive speeds.
+near-interactive speeds hosted in UIWebView in iOS, along with the original 
+project.
 
 See [here](http://www.jasondavies.com/wordcloud/) for an interactive
-demonstration along with implementation details.
+demonstration along with implementation details of the original code.
 
-![Example cloud of Twitter search results for “amazing”](http://www.jasondavies.com/wordcloud/amazing.png)
+iOS implementation by aug2uag.
 
 ## Usage
 
-See the samples in `examples/`.
-
-This layout requires [D3](http://mbostock.github.com/d3/).  It’s similar to
-[d3.layout.force](https://github.com/mbostock/d3/wiki/Force-Layout), in that
-it’s **asynchronous** and **stateful**.
+open sample project in Xcode, build, and run on emulator or device.
