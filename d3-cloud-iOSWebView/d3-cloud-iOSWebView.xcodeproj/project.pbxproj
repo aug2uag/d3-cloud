@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A04DA61997908A00B38986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A04DA51997908A00B38986 /* Foundation.framework */; };
+		34A04DA81997908A00B38986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A04DA71997908A00B38986 /* CoreGraphics.framework */; };
+		34A04DAA1997908A00B38986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A04DA91997908A00B38986 /* UIKit.framework */; };
+		34A04DB01997908A00B38986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DAE1997908A00B38986 /* InfoPlist.strings */; };
+		34A04DB21997908A00B38986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A04DB11997908A00B38986 /* main.m */; };
+		34A04DB61997908A00B38986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A04DB51997908A00B38986 /* AppDelegate.m */; };
+		34A04DB91997908A00B38986 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DB71997908A00B38986 /* Main_iPhone.storyboard */; };
+		34A04DBC1997908A00B38986 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DBA1997908A00B38986 /* Main_iPad.storyboard */; };
+		34A04DBF1997908A00B38986 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A04DBE1997908A00B38986 /* ViewController.m */; };
+		34A04DC11997908A00B38986 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DC01997908A00B38986 /* Images.xcassets */; };
+		34A04DC81997908A00B38986 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A04DC71997908A00B38986 /* XCTest.framework */; };
+		34A04DC91997908A00B38986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A04DA51997908A00B38986 /* Foundation.framework */; };
+		34A04DCA1997908A00B38986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A04DA91997908A00B38986 /* UIKit.framework */; };
+		34A04DD21997908A00B38986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DD01997908A00B38986 /* InfoPlist.strings */; };
+		34A04DD41997908A00B38986 /* d3_cloud_iOSWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A04DD31997908A00B38986 /* d3_cloud_iOSWebViewTests.m */; };
+		34A04DDE1997909F00B38986 /* d3-wordCloud.html in Resources */ = {isa = PBXBuildFile; fileRef = 34A04DDD1997909F00B38986 /* d3-wordCloud.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A04DCB1997908A00B38986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A04D9A1997908A00B38986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A04DA11997908A00B38986;
+			remoteInfo = "d3-cloud-iOSWebView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34A04DA21997908A00B38986 /* d3-cloud-iOSWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "d3-cloud-iOSWebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A04DA51997908A00B38986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34A04DA71997908A00B38986 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34A04DA91997908A00B38986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34A04DAD1997908A00B38986 /* d3-cloud-iOSWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "d3-cloud-iOSWebView-Info.plist"; sourceTree = "<group>"; };
+		34A04DAF1997908A00B38986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34A04DB11997908A00B38986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34A04DB31997908A00B38986 /* d3-cloud-iOSWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "d3-cloud-iOSWebView-Prefix.pch"; sourceTree = "<group>"; };
+		34A04DB41997908A00B38986 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34A04DB51997908A00B38986 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34A04DB81997908A00B38986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		34A04DBB1997908A00B38986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		34A04DBD1997908A00B38986 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34A04DBE1997908A00B38986 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34A04DC01997908A00B38986 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34A04DC61997908A00B38986 /* d3-cloud-iOSWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "d3-cloud-iOSWebViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A04DC71997908A00B38986 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		34A04DCF1997908A00B38986 /* d3-cloud-iOSWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "d3-cloud-iOSWebViewTests-Info.plist"; sourceTree = "<group>"; };
+		34A04DD11997908A00B38986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34A04DD31997908A00B38986 /* d3_cloud_iOSWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = d3_cloud_iOSWebViewTests.m; sourceTree = "<group>"; };
+		34A04DDD1997909F00B38986 /* d3-wordCloud.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "d3-wordCloud.html"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A04D9F1997908A00B38986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A04DA81997908A00B38986 /* CoreGraphics.framework in Frameworks */,
+				34A04DAA1997908A00B38986 /* UIKit.framework in Frameworks */,
+				34A04DA61997908A00B38986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A04DC31997908A00B38986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A04DC81997908A00B38986 /* XCTest.framework in Frameworks */,
+				34A04DCA1997908A00B38986 /* UIKit.framework in Frameworks */,
+				34A04DC91997908A00B38986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A04D991997908A00B38986 = {
+			isa = PBXGroup;
+			children = (
+				34A04DAB1997908A00B38986 /* d3-cloud-iOSWebView */,
+				34A04DCD1997908A00B38986 /* d3-cloud-iOSWebViewTests */,
+				34A04DA41997908A00B38986 /* Frameworks */,
+				34A04DA31997908A00B38986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A04DA31997908A00B38986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A04DA21997908A00B38986 /* d3-cloud-iOSWebView.app */,
+				34A04DC61997908A00B38986 /* d3-cloud-iOSWebViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A04DA41997908A00B38986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A04DA51997908A00B38986 /* Foundation.framework */,
+				34A04DA71997908A00B38986 /* CoreGraphics.framework */,
+				34A04DA91997908A00B38986 /* UIKit.framework */,
+				34A04DC71997908A00B38986 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34A04DAB1997908A00B38986 /* d3-cloud-iOSWebView */ = {
+			isa = PBXGroup;
+			children = (
+				34A04DB41997908A00B38986 /* AppDelegate.h */,
+				34A04DB51997908A00B38986 /* AppDelegate.m */,
+				34A04DB71997908A00B38986 /* Main_iPhone.storyboard */,
+				34A04DBA1997908A00B38986 /* Main_iPad.storyboard */,
+				34A04DBD1997908A00B38986 /* ViewController.h */,
+				34A04DBE1997908A00B38986 /* ViewController.m */,
+				34A04DDD1997909F00B38986 /* d3-wordCloud.html */,
+				34A04DC01997908A00B38986 /* Images.xcassets */,
+				34A04DAC1997908A00B38986 /* Supporting Files */,
+			);
+			path = "d3-cloud-iOSWebView";
+			sourceTree = "<group>";
+		};
+		34A04DAC1997908A00B38986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A04DAD1997908A00B38986 /* d3-cloud-iOSWebView-Info.plist */,
+				34A04DAE1997908A00B38986 /* InfoPlist.strings */,
+				34A04DB11997908A00B38986 /* main.m */,
+				34A04DB31997908A00B38986 /* d3-cloud-iOSWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34A04DCD1997908A00B38986 /* d3-cloud-iOSWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A04DD31997908A00B38986 /* d3_cloud_iOSWebViewTests.m */,
+				34A04DCE1997908A00B38986 /* Supporting Files */,
+			);
+			path = "d3-cloud-iOSWebViewTests";
+			sourceTree = "<group>";
+		};
+		34A04DCE1997908A00B38986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A04DCF1997908A00B38986 /* d3-cloud-iOSWebViewTests-Info.plist */,
+				34A04DD01997908A00B38986 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A04DA11997908A00B38986 /* d3-cloud-iOSWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A04DD71997908A00B38986 /* Build configuration list for PBXNativeTarget "d3-cloud-iOSWebView" */;
+			buildPhases = (
+				34A04D9E1997908A00B38986 /* Sources */,
+				34A04D9F1997908A00B38986 /* Frameworks */,
+				34A04DA01997908A00B38986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "d3-cloud-iOSWebView";
+			productName = "d3-cloud-iOSWebView";
+			productReference = 34A04DA21997908A00B38986 /* d3-cloud-iOSWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A04DC51997908A00B38986 /* d3-cloud-iOSWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A04DDA1997908A00B38986 /* Build configuration list for PBXNativeTarget "d3-cloud-iOSWebViewTests" */;
+			buildPhases = (
+				34A04DC21997908A00B38986 /* Sources */,
+				34A04DC31997908A00B38986 /* Frameworks */,
+				34A04DC41997908A00B38986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A04DCC1997908A00B38986 /* PBXTargetDependency */,
+			);
+			name = "d3-cloud-iOSWebViewTests";
+			productName = "d3-cloud-iOSWebViewTests";
+			productReference = 34A04DC61997908A00B38986 /* d3-cloud-iOSWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A04D9A1997908A00B38986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = aug2uag;
+				TargetAttributes = {
+					34A04DC51997908A00B38986 = {
+						TestTargetID = 34A04DA11997908A00B38986;
+					};
+				};
+			};
+			buildConfigurationList = 34A04D9D1997908A00B38986 /* Build configuration list for PBXProject "d3-cloud-iOSWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A04D991997908A00B38986;
+			productRefGroup = 34A04DA31997908A00B38986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A04DA11997908A00B38986 /* d3-cloud-iOSWebView */,
+				34A04DC51997908A00B38986 /* d3-cloud-iOSWebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A04DA01997908A00B38986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A04DDE1997909F00B38986 /* d3-wordCloud.html in Resources */,
+				34A04DBC1997908A00B38986 /* Main_iPad.storyboard in Resources */,
+				34A04DC11997908A00B38986 /* Images.xcassets in Resources */,
+				34A04DB91997908A00B38986 /* Main_iPhone.storyboard in Resources */,
+				34A04DB01997908A00B38986 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A04DC41997908A00B38986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A04DD21997908A00B38986 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A04D9E1997908A00B38986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A04DBF1997908A00B38986 /* ViewController.m in Sources */,
+				34A04DB61997908A00B38986 /* AppDelegate.m in Sources */,
+				34A04DB21997908A00B38986 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A04DC21997908A00B38986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A04DD41997908A00B38986 /* d3_cloud_iOSWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A04DCC1997908A00B38986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A04DA11997908A00B38986 /* d3-cloud-iOSWebView */;
+			targetProxy = 34A04DCB1997908A00B38986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34A04DAE1997908A00B38986 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A04DAF1997908A00B38986 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34A04DB71997908A00B38986 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A04DB81997908A00B38986 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		34A04DBA1997908A00B38986 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A04DBB1997908A00B38986 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		34A04DD01997908A00B38986 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A04DD11997908A00B38986 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A04DD51997908A00B38986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34A04DD61997908A00B38986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A04DD81997908A00B38986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "d3-cloud-iOSWebView/d3-cloud-iOSWebView-Prefix.pch";
+				INFOPLIST_FILE = "d3-cloud-iOSWebView/d3-cloud-iOSWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34A04DD91997908A00B38986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "d3-cloud-iOSWebView/d3-cloud-iOSWebView-Prefix.pch";
+				INFOPLIST_FILE = "d3-cloud-iOSWebView/d3-cloud-iOSWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34A04DDB1997908A00B38986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/d3-cloud-iOSWebView.app/d3-cloud-iOSWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "d3-cloud-iOSWebView/d3-cloud-iOSWebView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "d3-cloud-iOSWebViewTests/d3-cloud-iOSWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		34A04DDC1997908A00B38986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/d3-cloud-iOSWebView.app/d3-cloud-iOSWebView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "d3-cloud-iOSWebView/d3-cloud-iOSWebView-Prefix.pch";
+				INFOPLIST_FILE = "d3-cloud-iOSWebViewTests/d3-cloud-iOSWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A04D9D1997908A00B38986 /* Build configuration list for PBXProject "d3-cloud-iOSWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A04DD51997908A00B38986 /* Debug */,
+				34A04DD61997908A00B38986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A04DD71997908A00B38986 /* Build configuration list for PBXNativeTarget "d3-cloud-iOSWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A04DD81997908A00B38986 /* Debug */,
+				34A04DD91997908A00B38986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34A04DDA1997908A00B38986 /* Build configuration list for PBXNativeTarget "d3-cloud-iOSWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A04DDB1997908A00B38986 /* Debug */,
+				34A04DDC1997908A00B38986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A04D9A1997908A00B38986 /* Project object */;
+}
